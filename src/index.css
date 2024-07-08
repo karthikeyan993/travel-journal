@@ -30,6 +30,8 @@ header {
   img {
     width: 24px;
     height: 24px;
+    position: relative;
+    top: 2px;
   }
 
   h3 {
@@ -116,6 +118,7 @@ header {
   }
 }
 
+/* Responsive */
 
 @media only screen and (max-width: 991px) {
 

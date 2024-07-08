@@ -5,16 +5,13 @@ export default function Journal(props) {
     <div className="journal">
       <img
         className="journal__mainImage"
-        src={`../../public/images/${props.data.image}`}
+        src={`/images/${props.data.image}`}
         alt={props.data.imageDescription}
       />
       <div className="journal__info">
         <div>
           <div className="journal__location">
-            <img
-              src="../../public/images/location.png"
-              alt="location pin image"
-            />
+            <img src="/images/location.png" alt="location pin image" />
             <h3>{props.data.location}</h3>
             <a href={props.data.googleMapsUrl}>View on Google Maps</a>
           </div>
